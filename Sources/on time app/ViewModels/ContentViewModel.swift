@@ -1,5 +1,7 @@
 import Foundation
+#if canImport(Combine)
 import Combine
+#endif
 
 public class ContentViewModel: ObservableObject {
     @Published public var reminders: [Reminder] = []

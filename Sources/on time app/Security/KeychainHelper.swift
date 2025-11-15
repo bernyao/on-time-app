@@ -1,4 +1,5 @@
 import Foundation
+import Security
 
 public enum KeychainError: Error {
     case unexpectedStatus(OSStatus)

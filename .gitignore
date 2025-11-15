@@ -1,6 +1,11 @@
 .DS_Store
 /.build
 /Packages
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+ontime.bundle
+frontend/.expo/
 xcuserdata/
 DerivedData/
 .swiftpm/configuration/registries.json
